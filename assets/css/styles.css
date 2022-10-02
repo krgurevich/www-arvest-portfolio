@@ -1,0 +1,84 @@
+:root {
+    --grey: #bfc0c1;
+    --sandstone: #D67229;
+    --sun: #F7C331;
+    --oat: #efe3d3;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+.subheader-1 {
+    flex: 2;
+}
+h1 {
+    font-size: 36px;
+    padding: 25px;
+}
+.subheader-2 {
+    flex: 1;
+}
+nav ul li {
+    display: inline-block;
+
+}
+nav li {
+    padding: 30px 10px;
+    
+}
+h2 {
+    font-size: 26px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.about {
+    display: flex;
+    margin-top: 20px;
+}
+.about-aside {
+    flex: 1;
+}
+.about-article {
+    flex: 2;
+}
+.work {
+    display: flex;
+    margin-top: 20px;
+}
+.work-aside {
+    flex: 1;
+}
+.work-article {
+    flex: 2;
+
+}
+.work-tab {
+    display: flex;
+     
+}
+.work-tab img {
+    padding: 10px;
+}
+footer {
+    display: flex;
+    margin-top: 20px;
+   }
+.footer-aside {
+    flex: 1;
+}
+.footer-section {
+    flex: 2;
+}
+.footer-section {
+    display: flex;
+}
+.footer-section ul li {
+    display: inline-block;
+    margin: 10px;
+}
