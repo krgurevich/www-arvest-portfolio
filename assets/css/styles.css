@@ -6,79 +6,98 @@
 }
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
     width: 100%;
     display: flex;
 }
-.subheader-1 {
+
+.hdr-aside {
     flex: 2;
 }
+
+.hdr-items {
+    flex: 1;
+}
+
 h1 {
     font-size: 36px;
     padding: 25px;
 }
-.subheader-2 {
-    flex: 1;
-}
-nav ul li {
-    display: inline-block;
 
+nav ul {
+    display: flex;
 }
+
 nav li {
-    padding: 30px 10px;
-    
+    padding-top: 10px;
+    margin: 20px;
 }
+
 h2 {
     font-size: 26px;
     text-align: right;
     font-weight: bold;
     margin-right: 20px;
 }
+
 .about {
     display: flex;
     margin-top: 20px;
 }
+
 .about-aside {
     flex: 1;
 }
+
 .about-article {
     flex: 2;
 }
+
 .work {
     display: flex;
     margin-top: 20px;
 }
+
 .work-aside {
     flex: 1;
 }
+
 .work-article {
     flex: 2;
 
 }
-.work-tab {
+
+.work-items {
     display: flex;
-     
+
 }
-.work-tab img {
+
+.work-items img {
     padding: 10px;
 }
+
 footer {
+    width: 100%;
     display: flex;
     margin-top: 20px;
-   }
-.footer-aside {
+}
+
+.ft-aside {
     flex: 1;
 }
-.footer-section {
+
+.ft-section {
     flex: 2;
 }
-.footer-section {
+
+.ft-items ul {
     display: flex;
+    justify-content: space-evenly;
 }
-.footer-section ul li {
-    display: inline-block;
-    margin: 10px;
+
+.ft-items li {
+    padding-top: 10px;
 }
