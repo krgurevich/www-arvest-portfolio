@@ -1,0 +1,40 @@
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    nav li {
+
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .work-items figure {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        flex-basis: calc(100% - 20px);
+    }
+
+    .tag {
+        font-size: 12px;
+    }
+
+    .tag-right {
+        font-size: 12px;
+    }
+
+    .ft-items ul {
+        font-size: 14px;
+    }
+
+}
