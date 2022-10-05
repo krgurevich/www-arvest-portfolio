@@ -48,20 +48,19 @@ nav li {
     font-weight: bold;
 }
 
+nav a {
+    text-decoration: none;
+    color: var(--mint);
+    padding: 7px;
+}
+
 nav a:hover {
     background-color: var(--mint);
     color: var(--blue);
     cursor: pointer;
-    padding: 5px;
-    border-radius: 2px;
-    margin: -1px;
+    padding: 7px;
+    border-radius: 5px;
 
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--mint);
-    padding: 5px;
 }
 
 /* sub-header section begins */
@@ -78,7 +77,6 @@ nav a {
 }
 
 /* main section begins */
-
 h2 {
     font-size: 26px;
     text-align: right;
@@ -131,22 +129,90 @@ p {
     flex-flow: wrap;
 }
 
+.main-item {
+    position: relative;
+}
+
+.main-item img {
+    display: block;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.main-item img:hover {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    transform: scale(0.9);
+}
+
 .work-items figure {
     margin: 0;
-    /* reset default margin of figure */
     margin-right: 10px;
     margin-bottom: 10px;
     flex-basis: calc(50% - 20px);
-    /* 2 items in a row - adjust for the 10px margin on each side */
+    position: relative;
 }
 
 .work-items img {
     display: block;
-    height: 150px;
-    /* height of each row */
+    height: 200px;
     width: 100%;
     object-fit: cover;
-    /* fit as cover maintaining aspect ratio */
+}
+
+.work-items img:hover {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    transform: scale(0.9);
+}
+
+.hdr-tag {
+    position: absolute;
+    bottom: 35px;
+    left: 14px;
+    width: 120px;
+    font-size: 14px;
+    color: var(--lightgrey);
+    background-color: var(--darkblue);
+    padding: 5px;
+}
+
+.tag {
+    position: absolute;
+    bottom: 15px;
+    left: 14px;
+    width: 120px;
+    font-size: 10px;
+    color: var(--lightgrey);
+    background-color: var(--darkblue);
+    padding: 5px;
+
+}
+
+.hdr-tag-right {
+    position: absolute;
+    bottom: 35px;
+    right: 14px;
+    width: 120px;
+    font-size: 14px;
+    color: var(--lightgrey);
+    background-color: var(--darkblue);
+    padding: 5px;
+
+}
+
+.tag-right {
+    position: absolute;
+    bottom: 15px;
+    right: 14px;
+    width: 120px;
+    font-size: 14px;
+    color: var(--lightgrey);
+    background-color: var(--darkblue);
+    padding: 5px;
+
 }
 
 /* footer begins */
@@ -179,13 +245,13 @@ footer {
 .ft-items a {
     text-decoration: none;
     color: var(--blue);
+    padding: 7px;
 }
 
 .ft-items a:hover {
     background-color: var(--blue);
     color: var(--mint);
     cursor: pointer;
-    padding: 5px;
-    border-radius: 2px;
-    margin: -3px;
+    padding: 7px;
+    border-radius: 5px;
 }
