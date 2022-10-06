@@ -24,14 +24,6 @@
         flex-basis: calc(100% - 20px);
     }
 
-    .tag {
-        font-size: 12px;
-    }
-
-    .tag-right {
-        font-size: 12px;
-    }
-
     .ft-items ul {
         font-size: 14px;
     }
