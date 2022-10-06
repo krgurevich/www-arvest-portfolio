@@ -2,6 +2,7 @@
 My Porfolio of Work
 
 # Description
+***
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
@@ -22,11 +23,11 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 # Links
-
 ***
-GitHub Web Page: 
-GitHub Repository: 
+GitHub Web Page: https://krgurevich.github.io/www-arvest-portfolio/
+GitHub Repository: https://github.com/krgurevich/www-arvest-portfolio
 
 ## Screenshot
-
 ***
+
+![website screenshot](./assets/images/website-screenshot.png)
